@@ -1,0 +1,57 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+ul, ol, li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+#header .inner {
+  width: 1180px;
+  text-align: center; }
+
+.grid {
+  background: #bbb;
+  padding: 30px; }
+  .grid::after {
+    content: '';
+    display: block;
+    clear: both; }
+  .grid .grid-item {
+    width: 1180px;
+    margin: 0 auto;
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 130px;
+    padding: 10px;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 4px; }
+    .grid .grid-item:nth-child(10n+0) {
+      background: red; }
+    .grid .grid-item:nth-child(10n+1) {
+      background: #ff9900; }
+    .grid .grid-item:nth-child(10n+2) {
+      background: #ccff00; }
+    .grid .grid-item:nth-child(10n+3) {
+      background: #33ff00; }
+    .grid .grid-item:nth-child(10n+4) {
+      background: #00ff66; }
+    .grid .grid-item:nth-child(10n+5) {
+      background: lightblue; }
+    .grid .grid-item:nth-child(10n+6) {
+      background: #fff; }
+    .grid .grid-item:nth-child(10n+7) {
+      background: #111; }
+    .grid .grid-item:nth-child(10n+8) {
+      background: #fff; }
+    .grid .grid-item:nth-child(10n+9) {
+      background: #ff0099; }
+  .grid .grid-item--width2 {
+    width: 300px; }
+
+/*# sourceMappingURL=style.css.map */
